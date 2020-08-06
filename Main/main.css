@@ -108,7 +108,7 @@ h3 {
 }
 
 #ProjectLinks {
-	display: flex;
+	display: inline-block;
 
 	flex-flow: column;
 }
