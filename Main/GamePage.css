@@ -1,0 +1,53 @@
+#PageHeader {
+	display: flex;
+
+	flex-flow: row;
+	flex-grow: 1;
+
+	align-items: center;
+	align-content: space-between;
+
+	justify-items: center;
+	justify-content: space-evenly;
+	
+	grid-template-rows: 20% 80% 20%;
+}
+h1 {
+	font-size: 40px;
+}
+
+#Description {
+	width: 50%;
+	display: inline-block;
+}
+
+.download {
+	font-size: 20px;
+
+	text-align: center;
+	white-space: pre-line;
+
+	transition: font-size 0.5s;
+	transition-timing-function: ease;
+}
+.download:hover {
+	font-size: 21px;
+}
+
+
+#DownloadSection {
+	padding: 20px;
+	width: 50%;
+	display: inline-block;
+}
+
+#DownloadHeader {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#DownloadContainer {
+	margin: 10px;
+}
+
